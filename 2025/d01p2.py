@@ -1,4 +1,4 @@
-# Day 01 - Part 1
+# Day 01 - Part 2
 import re
 def main():
     with open("d01.txt") as f:
@@ -30,10 +30,8 @@ def main():
                 if pointer == 0:
                         answer += 1
     print('ans:')   
-    print(pointer)
     print(answer)
         
-    #print(lines)  # Replace with your solution logic
 
 if __name__ == "__main__":
     main()

@@ -18,10 +18,7 @@ def main():
         if pointer == 0:
                 answer += 1
     print('ans:')   
-    print(pointer)
     print(answer)
-        
-    #print(lines)  # Replace with your solution logic
 
 if __name__ == "__main__":
     main()
